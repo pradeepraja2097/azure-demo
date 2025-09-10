@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, I am a Flask App running with CI/CD on Azure!"
+    return "Hello, I am a Flask App !"
 
 if __name__ == '__main__':
     app.run()
